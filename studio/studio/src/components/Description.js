@@ -5,8 +5,8 @@ class RecipeDescription extends React.Component{
     render(){
         return(
             <div> 
-            <div>
-               <h1>MICHIGAN FRENCH TOAST SANDWICH</h1>
+            <div className={styles.title}>
+               <h1  >MICHIGAN FRENCH TOAST SANDWICH</h1>
                <p> FROM RAMSAY AROUND THE WORLD</p>
             </div>
             <RecipeAuthor />

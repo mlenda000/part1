@@ -5,7 +5,7 @@ export default function RecipeIngredients (){
 
     return(
         <div>
-        <h3>Recipe Ingredients</h3>
+        <h3 className={styles.heading}>Recipe Ingredients</h3>
         <ul className = {styles.ingredientList}>
            <li>{ingredients[0]}</li>
            <li>{ingredients[1]}</li>

@@ -1,3 +1,8 @@
 .ingredientList {
     text-align: left;
+    padding:5%;
+    position: relative;
+ }
+ .heading{
+    padding-top:90px;
  }
