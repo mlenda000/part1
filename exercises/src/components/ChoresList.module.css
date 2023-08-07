@@ -1,0 +1,13 @@
+.choresText {
+   color: blue;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: large;
+   font-style: italic;
+   text-align: left;
+
+}
+
+.choresHeading {
+   text-decoration: underline;
+   text-align: left;
+}
