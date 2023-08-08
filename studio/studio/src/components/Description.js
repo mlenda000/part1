@@ -23,10 +23,10 @@ function RecipeAuthor(){
 
 return (
    <div className = {styles.recipeAuthorBlock}>
-      <img src={authorPhoto} alt = "Gordon Ramsay" className={styles.imageUpdates} />
-      <div>
+      <img src={authorPhoto} alt = "Gordon Ramsay" className={styles.imageUpdates}  />
+      <div className='name'>
          <h3>{authorName}</h3>
-         <a href={authorLink}>Gordon Ramsay Recipes</a> 
+         <a href={authorLink} target='_blank'><button>Gordon Ramsay Recipes</button></a> 
       </div>
    </div>
 );

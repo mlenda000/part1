@@ -1,22 +1,31 @@
 .recipeAuthorBlock {
-    display: flex;
+
     justify-content: space-evenly;
     }
     
     .imageUpdates {
        object-fit: contain;
        height:350px;
+       border-radius: 20px;
     }
     .head{
         object-fit:contain;
         width:100%;
-        padding:0;
+        padding-top:15px;
+        padding-bottom:5px;
         margin:0;
         background-color: black;
+        border-radius:0 0 20px 20px; 
+
     }
     .title{
         text-align: center;
         width:100%;
-        
-        
+        font-family:'Courier New', Courier, monospace
+
+    }
+    .name{
+        display: block;
+        text-align: left;
+
     }
