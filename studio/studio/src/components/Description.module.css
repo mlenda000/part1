@@ -5,8 +5,10 @@
     
     .imageUpdates {
        object-fit: contain;
-       height:350px;
+       max-height:350px;
+       width:100%;
        border-radius: 20px;
+       display: block;
     }
     .head{
         object-fit:contain;
